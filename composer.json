@@ -1,0 +1,19 @@
+{
+    "name": "alexprishmont/php-generics-workshop",
+    "description": "A sample project for PHP generics workshop",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alexprishmont\\PhpGenericsWorkshop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Prismont",
+            "email": "aprishmont@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    }
+}
