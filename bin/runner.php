@@ -20,5 +20,5 @@ $repo->save(new User(
 $result = $repo->all();
 
 foreach ($result as $user) {
-    echo $user->name . PHP_EOL; // phpstan cries.
+    echo $user->name . PHP_EOL;
 }
